@@ -8,7 +8,7 @@ using System.Xml.Linq;
 namespace PatikaInheritanceTask
 {
     //▼ Base Class ▼
-    public class BasePerson
+    public abstract class BasePerson
     {
         public string Name { get; set; }
         public string Surname { get; set; }
